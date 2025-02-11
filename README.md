@@ -15,7 +15,8 @@ I used NES.css because the site is meant to be retro, whimsical, and not super u
 ## Technical Achievements
 - **Tech Achievement 1**: session management
 - **Tech Achievement 2**: 100 in all 4 categories
-- **Tech Achievement 3**: Vercel deployment. I found that the pages routing was a bit confusing but there seems to be more options I could explore later on. I had an automatic redirect that was hard to get in Vercel.
+- **Tech Achievement 3**: Vercel deployment. I found that the pages routing was a bit confusing but there seems to be more options I could explore later on. I had an automatic redirect that was hard to get in Vercel. I think that glitch deployment was more intuitive this time but it is worth exploring again
+- **Tech Achievement 4**: passport local
 
 
 ### Design/Evaluation Achievements
