@@ -1,7 +1,10 @@
 ## Shape competition
 A user can submit a shape created using a simple polygon tool, with the user's name, the shape name, the description, and whether or not the shape is named after the user. The goal of the application is to provide a whimsical learning experience for the developer in which basic server functionality is implemented. Users can have fun creating shapes and viewing other user's creations.
 
+https://a3-notleohirano.glitch.me
+
 username: user
+
 password: pass
 
 I had challenges with session implementation. I chose to implement passport local with session management because I wanted to learn more about using cookies.
