@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CS4241 Assignment 3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for CS4241 Assignment 3">
+
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- get rid of favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body class="nes-container with-title is-dark">
+
+<button id="toggleTable" class="nes-btn">📋 Toggle Data Table</button>
+
+<div id="info" class="nes-container with-title is-rounded">
+    <h1 class="nes-text is-primary">Shape Competition!</h1>
+    <p class="nes-text">Click on the black canvas to place points of your polygon! Then Submit your shape below!</p>
+    <p class="nes-text">To view another shape, select it from the dropdown menu. To view all shapes, toggle to table and click on entries to preview.</p>
+
+    <form class="nes-form">
+        <b id="yourname" class="nes-text is-success"></b>
+        <label for="shapename" class="nes-text">Shape Name: </label>
+        <input type="text" id="shapename" class="nes-input" placeholder="dylan"/>
+
+        <label for="description" class="nes-text">Description (optional): </label>
+        <textarea id="description" class="nes-textarea"></textarea>
+
+        <button id="submit" class="nes-btn is-primary">Submit</button>
+        <button id="revert" class="nes-btn is-error">Revert</button>
+
+        <label for="shapeSelect" class="nes-text">View Your Shapes </label>
+
+        <select id="shapeSelect" class="nes-select">
+            <option value="">-- Select a shape --</option>
+        </select>
+    </form>
+</div>
+
+<div id="table-container" class="nes-container with-title is-dark" style="display: none;"></div>
+
+<div id="canvas" class="nes-container with-title">
+    <svg id="drawing-area" class="nes-container is-dark" width="80%" height="90%"></svg>
+</div>
+
+</body>
+</html>
